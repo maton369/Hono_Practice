@@ -11,6 +11,7 @@ CMD ["sh", "-c", "\
     cd next && \
     npm install prisma --save-dev && \
     npm install @prisma/client && \
+    npm install next-auth @next-auth/prisma-adapter && \
     npx prisma init; \
   fi && \
   cd next && npm run dev \
