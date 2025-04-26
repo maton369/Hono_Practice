@@ -12,6 +12,7 @@ CMD ["sh", "-c", "\
     npm install prisma --save-dev && \
     npm install @prisma/client && \
     npm install next-auth @next-auth/prisma-adapter && \
+    npm install lucia lucia-auth @lucia-auth/adapter-prisma @lucia-auth/nextjs && \
     npx prisma init; \
   fi && \
   cd next && npm run dev \
